@@ -69,6 +69,39 @@ nav li a{
     margin-top: 25px;
     width: 100%;
 }
+/* Main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Feature Section */
+.feature{
+    display: flex;
+    align-items: center;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.feature-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.sec-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.thin{
+    color: #727272;
+    font-weight: 500;
+}
+.orange{
+    color: #FF900E;
+    font-weight: 700;
+}
+
 /* Responsive media query */
 /* small devices */
 @media screen and (max-width:576px) {
