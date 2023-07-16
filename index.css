@@ -72,7 +72,7 @@ nav li a{
 /* Main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 /* Feature Section */
 .feature{
@@ -108,8 +108,15 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav,  .feature{
         flex-direction: column;
+    }
+    .feature-img{
+        grid-template-columns: 1fr;
+    }
+    .feature-content{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 /* medium devices */
@@ -119,5 +126,15 @@ main{
     }
     nav{
         flex-direction: column;
+    }
+    .feature{
+        flex-direction: column-reverse;
+    }
+    .feature-content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .feature-img{
+        margin-top: 30px;
     }
 }
